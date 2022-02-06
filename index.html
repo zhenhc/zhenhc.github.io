@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=en>
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 6.0.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#000000" />
+  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <title>Hexo</title>
   <meta property="og:type" content="website">
 <meta property="og:title" content="甄豪闯的个人网站">
 <meta property="og:url" content="http://example.com/index.html">
@@ -27,483 +25,400 @@
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="zhenhc">
 <meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://example.com/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'en'
-  };
-</script>
-
-  <title>甄豪闯的个人网站</title>
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://example.com/index.html">
   
+    <link rel="alternate" href="/atom.xml" title="甄豪闯的个人网站" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+  
+  
+<meta name="generator" content="Hexo 6.0.0"></head>
 
 
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">甄豪闯的个人网站</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
-
-  </li>
-  </ul>
-</nav>
-
-
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
-            
+<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
+  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="slimContent">
+    <div class="navbar-header">
       
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/02/06/Awsome-Github-Repository/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhenhc">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="甄豪闯的个人网站">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/02/06/Awsome-Github-Repository/" class="post-title-link" itemprop="url">Awsome Github Repository</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2022-02-06 10:20:29 / Modified: 10:24:22" itemprop="dateCreated datePublished" datetime="2022-02-06T10:20:29+08:00">2022-02-06</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
       
-          <p>曾经帮助过我，以及正在帮助我，未来仍将会帮助我的github仓库地址</p>
-<h3 id="资料教程类"><a href="#资料教程类" class="headerlink" title="资料教程类"></a>资料教程类</h3><ul>
-<li><strong><a target="_blank" rel="noopener" href="https://github.com/jwasham/coding-interview-university">coding-interview-university</a></strong> ：A complete computer science study plan to become a software engineer.</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/CyC2018/CS-Notes">CS-Notes</a>**：📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/Snailclimb/JavaGuide">JavaGuide</a>**：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/jackfrued/Python-100-Days">Python-100-Days</a>**：Python - 100天从新手到大师</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/jlevy/the-art-of-command-line">the-art-of-command-line</a>**：Master the command line, in one page</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/labuladong/fucking-algorithm"> fucking-algorithm</a>**：刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why.</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/doocs/advanced-java">advanced-java</a>**：😮 Core Interview Questions &amp; Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/macrozheng/mall-learning">mall-learning</a>**：mall学习教程，架构、业务、技术要点全方位解析。mall项目（40k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/AobingJava/JavaFamily"> JavaFamily</a>**：【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/wuyouzhuguli/SpringAll"> SpringAll</a>**：循序渐进，学习Spring Boot、Spring Boot &amp; Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security &amp; Spring Security OAuth2，博客Spring系列源码：<a target="_blank" rel="noopener" href="https://mrbird.cc/">https://mrbird.cc</a></li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/hollischuang/toBeTopJavaer"> toBeTopJavaer</a>**：To Be Top Javaer - Java工程师成神之路</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/huihut/interview">interview</a>**：📚 C&#x2F;C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of C&#x2F;C++ technology, including language, program library, data structure, algorithm, system, network, link loading library, interview experience, recruitment, recommendatio…</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/ZhongFuCheng3y/athena"> athena</a>**：📓Java后端知识图谱</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/YunaiV/SpringBoot-Labs"> SpringBoot-Labs</a>**：一个涵盖六个专栏：Spring Boot 2.X、Spring Cloud、Spring Cloud Alibaba、Dubbo、分布式消息队列、分布式事务的仓库。希望胖友小手一抖，右上角来个 Star，感恩 1024</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/walter201230/Python"> Python</a>**：最良心的 Python 教程：</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit">Best-websites-a-programmer-should-visit</a>**：🔗 Some useful websites for programmers.</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/xitu/gold-miner"> gold-miner</a>**：🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台：</li>
-</ul>
-<h3 id="算法类"><a href="#算法类" class="headerlink" title="算法类"></a>算法类</h3><ul>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/TheAlgorithms/Python">Python</a>**：All Algorithms implemented in Python</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/TheAlgorithms/Java">Java</a>**：All Algorithms implemented in Java</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/kevin-wayne/algs4">algs4</a>**：Algorithms, 4th edition textbook code and libraries</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/labuladong/fucking-algorithm"> fucking-algorithm</a>**：刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why.</li>
-</ul>
-<h3 id="实战项目类"><a href="#实战项目类" class="headerlink" title="实战项目类"></a>实战项目类</h3><ul>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/PanJiaChen/vue-element-admin">vue-element-admin</a>**：🎉 A magical vue admin</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/iluwatar/java-design-patterns">java-design-patterns</a>**：Design patterns implemented in Java</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/macrozheng/mall">mall</a>**：mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于SpringBoot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/yangzongzhuan/RuoYi-Vue"> RuoYi-Vue</a>**：🎉 (RuoYi)官方仓库 基于SpringBoot，Spring Security，JWT，Vue &amp; Element 的前后端分离权限管理系统，同时提供了 Vue3 的版本</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/ityouknow/spring-boot-examples">spring-boot-examples</a>**：about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/xkcoding/spring-boot-demo"> spring-boot-demo</a>**：该项目已成功集成 actuator(监控)、admin(可视化监控)、logback(日志)、aopLog(通过AOP记录web请求日志)、统一异常处理(json级别和页面级别)、freemarker(模板引擎)、thymeleaf(模板引擎)、Beetl(模板引擎)、Enjoy(模板引擎)、JdbcTemplate(通用JDBC操作数据库)、JPA(强大的ORM框架)、mybatis(强大的ORM框架)、通用Mapper(快速操作Mybatis)、PageHelper(通用的Mybatis分页插件)、mybatis-plus(快速操作Mybatis)、BeetlSQL(强大的ORM框架)、upload(本地文件上传和七牛云文件上传)、redis(缓存)、ehcache(缓存)、ema…</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/geekcomputers/Python">Python</a>**：My Python Examples</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/lenve/vhr"> vhr</a>**：微人事是一个前后端分离的人力资源管理系统，项目采用SpringBoot+Vue开发。</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/wuyouzhuguli/SpringAll"> SpringAll</a>**：循序渐进，学习Spring Boot、Spring Boot &amp; Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security &amp; Spring Security OAuth2，博客Spring系列源码：<a target="_blank" rel="noopener" href="https://mrbird.cc/">https://mrbird.cc</a></li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/halo-dev/halo"> halo</a>**：✍ 一款现代化的开源博客&#x2F;CMS系统。</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/xuxueli/xxl-job"> xxl-job</a>**：A distributed task scheduling framework.（分布式任务调度平台XXL-JOB）</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/elunez/eladmin"> eladmin</a>**：项目基于 Spring Boot 2.1.0 、 Jpa、 Spring Security、redis、Vue的前后端分离的后台管理系统，项目采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，支持一键生成前后端代码，支持动态路由</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/lyswhut/lx-music-desktop"> lx-music-desktop</a>**：一个基于 electron 的音乐软件</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/dataease/dataease">dataease</a>**：人人可用的开源数据可视化分析工具。</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/zhaojun1998/zfile"> zfile</a>**：在线云盘、网盘、OneDrive、云存储、私有云、对象存储、h5ai</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/elunez/eladmin-web"> eladmin-web</a>**：eladmin前端源码，项目基于 Spring Boot 2.1.0 、 Spring Boot Jpa、 Spring Security、Redis、Vue的前后端分离后台管理系统， 权限控制采用 RBAC，菜单动态路由</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/shopizer-ecommerce/shopizer">shopizer</a>**：Shopizer java e-commerce software</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo">hexo</a>：A fast, simple &amp; powerful blog framework, powered by Node.js.</li>
-</ul>
-<h3 id="源码阅读类"><a href="#源码阅读类" class="headerlink" title="源码阅读类"></a>源码阅读类</h3><ul>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/spring-projects/spring-boot">spring-boot</a>**：Spring Boot</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/elastic/elasticsearch">elasticsearch</a>**：Free and Open, Distributed, RESTful Search Engine</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/redis/redis">redis</a>**：Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/google/guava"> guava</a>**：Google core libraries for Java</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/netty/netty"> netty</a>**：Netty project - an event-driven asynchronous network application framework</li>
-</ul>
-<h3 id="安卓项目类"><a href="#安卓项目类" class="headerlink" title="安卓项目类"></a>安卓项目类</h3><ul>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/skylot/jadx">jadx</a>**：Dex to Java decompiler</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/Genymobile/scrcpy">scrcpy</a>：Display and control your Android device</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/TeamNewPipe/NewPipe">NewPipe</a>：A libre lightweight streaming front-end for Android.</li>
-</ul>
-<h3 id="有趣项目类"><a href="#有趣项目类" class="headerlink" title="有趣项目类"></a>有趣项目类</h3><ul>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh</a>**：🙃 A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/microsoft/PowerToys">PowerToys</a>**：Windows system utilities to maximize productivity</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/httpie/httpie"> httpie</a>**：As easy as &#x2F;aitch-tee-tee-pie&#x2F; 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins &amp; more. <a target="_blank" rel="noopener" href="https://twitter.com/httpie">https://twitter.com/httpie</a></li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/testerSunshine/12306">12306</a>**：12306智能刷票，订票</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/Anuken/Mindustry"> Mindustry</a>**：The automation tower defense game</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/grantjenks/free-python-games"> free-python-games</a>**：Free Python Games</li>
-<li>**<a target="_blank" rel="noopener" href="https://github.com/Textualize/rich">rich</a>**：Rich is a Python library for rich text and beautiful formatting in the terminal.</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/scrapy/scrapy">scrapy</a>：Scrapy, a fast high-level web crawling &amp; scraping framework for Python.</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/netdata/netdata">netdata</a>：Real-time performance monitoring, done right! <a target="_blank" rel="noopener" href="https://www.netdata.cloud/">https://www.netdata.cloud</a>（监控linux操作系统）</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/soimort/you-get">you-get</a>：⏬ Dumb downloader that scrapes the web</li>
-</ul>
-<h3 id="其他教程网址链接"><a href="#其他教程网址链接" class="headerlink" title="其他教程网址链接"></a>其他教程网址链接</h3><ul>
-<li><strong><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/">廖雪峰的官方网站</a></strong></li>
-<li><strong><a target="_blank" rel="noopener" href="https://wangdoc.com/">网道</a></strong></li>
-<li><strong><a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/">阮一峰的个人网站</a></strong></li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/02/05/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhenhc">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="甄豪闯的个人网站">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/02/05/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2022-02-05 21:22:21" itemprop="dateCreated datePublished" datetime="2022-02-05T21:22:21+08:00">2022-02-05</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-02-06 10:08:08" itemprop="dateModified" datetime="2022-02-06T10:08:08+08:00">2022-02-06</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">zhenhc</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">2</span>
-          <span class="site-state-item-name">posts</span>
+      <div class="profile-block text-center">
+        <a id="avatar" href="https://github.com/zhenhc" target="_blank">
+          <img class="img-circle img-rotate" src="/images/avatar1.jpg" width="200" height="200">
         </a>
+        <h2 id="name" class="hidden-xs hidden-sm">zhenhc</h2>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">Web Developer &amp; Designer</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Beijing, China</small>
       </div>
-  </nav>
-</div>
+      
+      <div class="search" id="search-form-wrap">
 
-
-
-      </div>
-
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
+            </span>
+        </div>
+    </form>
+    <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+    <div class="ins-input-wrapper">
+      <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech />
+      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2022</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">zhenhc</span>
+    <div class="ins-section-wrapper">
+      <div class="ins-section-container"></div>
+    </div>
+  </div>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
-  </div>
 
+
+</div>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+      <ul class="nav navbar-nav main-nav ">
         
+        
+        <li class="menu-item menu-item-home">
+          <a href="/.">
+            
+            <i class="icon icon-home-fill"></i>
+            
+            <span class="menu-title">Home</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            
+            <i class="icon icon-archives-fill"></i>
+            
+            <span class="menu-title">Archives</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            
+            <i class="icon icon-folder"></i>
+            
+            <span class="menu-title">Categories</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            
+            <i class="icon icon-tags"></i>
+            
+            <span class="menu-title">Tags</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-repository">
+          <a href="/repository">
+            
+            <i class="icon icon-project"></i>
+            
+            <span class="menu-title">Repository</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-books">
+          <a href="/books">
+            
+            <i class="icon icon-book-fill"></i>
+            
+            <span class="menu-title">Books</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links">
+            
+            <i class="icon icon-friendship"></i>
+            
+            <span class="menu-title">Links</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            
+            <i class="icon icon-cup-fill"></i>
+            
+            <span class="menu-title">About</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/zhenhc" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="https://weibo.com/u/6068145467" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        
+        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
+        
+        <li><a href="https://www.behance.net/cofess" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
 
+    </nav>
+  </div>
+</header>
 
+  
+    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content">
+                <p>欢迎交流与分享经验!</p>
+            </div>
+        </div>
+    </div>
+</div>
 
+    
+      
 
+    
+      
 
-
-
-
-      </div>
-    </footer>
+    
+      
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Archive</h3>
+    <div class="widget-body">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/02/">February 2022</a><span class="archive-list-count">2</span></li></ul>
+    </div>
   </div>
 
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+      <ul class="recent-post-list list-unstyled no-thumbnail">
+        
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2022/02/06/Awsome-Github-Repository/" class="title">Awsome Github Repository</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2022-02-06T02:20:29.000Z" itemprop="datePublished">2022-02-06</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2022/02/05/hello-world/" class="title">Hello World</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2022-02-05T13:22:21.121Z" itemprop="datePublished">2022-02-05</time>
+              </p>
+            </div>
+          </li>
+          
+      </ul>
+    </div>
+  </div>
   
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
 
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
+    
+  </div>
+</aside>
 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <main class="main" role="main">
+  
+  <div class="content article-list">
+    
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2022/02/06/Awsome-Github-Repository/">Awsome Github Repository</a>
+    </h1>
   
 
+  </div>
   
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2022/02/06/Awsome-Github-Repository/" class="article-date">
+	  <time datetime="2022-02-06T02:20:29.000Z" itemprop="datePublished">Feb 6</time>
+	</a>
+</span>
+    
+    
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/02/06/Awsome-Github-Repository/#comments" class="article-comment-link">Comments</a></span>
+    
+	
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1.6k(words)</span>
+	
+	
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 7(minutes)</span>
+	
+
+  </p>
+</article>
+
+    
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2022/02/05/hello-world/">Hello World</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2022/02/05/hello-world/" class="article-date">
+	  <time datetime="2022-02-05T13:22:21.121Z" itemprop="datePublished">Feb 5</time>
+	</a>
+</span>
+    
+    
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/02/05/hello-world/#comments" class="article-comment-link">Comments</a></span>
+    
+	
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 75(words)</span>
+	
+	
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1(minutes)</span>
+	
+
+  </p>
+</article>
+
+    
+  </div>
+
+   
+</main>
+
+  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+	
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/zhenhc" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="https://weibo.com/u/6068145467" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        
+        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
+        
+        <li><a href="https://www.behance.net/cofess" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    <div class="copyright">
+    	
+        <div class="publishby">
+        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        </div>
+    </div>
+</footer>
+  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+
+<script src="/js/plugin.min.js"></script>
+
+
+<script src="/js/application.js"></script>
+
+
+    <script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
 
 </body>
 </html>
