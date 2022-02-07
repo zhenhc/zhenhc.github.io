@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-07T09:37:42.021Z</updated>
+  <updated>2022-02-07T12:10:11.328Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Anaconda教程</title>
+    <link href="http://example.com/2022/02/07/Anaconda%E6%95%99%E7%A8%8B/"/>
+    <id>http://example.com/2022/02/07/Anaconda%E6%95%99%E7%A8%8B/</id>
+    <published>2022-02-07T11:47:52.000Z</published>
+    <updated>2022-02-07T12:10:11.328Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="下载Anaconda"><a href="#下载Anaconda" class="headerlink" title="下载Anaconda"></a>下载Anaconda</h3><blockquote><p>官网：<a href="https://www.anaconda.com/">https://www.anaconda.com/</a></p></blockquote><p><img src="/images/image-20220207195226576.png" alt="image-20220207195226576"></p><ul><li>安装完成后可以在”开始”菜单找到如下程序：</li></ul><p><img src="/images/image-20220207195818743.png" alt="image-20220207195818743"></p><h3 id="包管理和虚拟环境管理"><a href="#包管理和虚拟环境管理" class="headerlink" title="包管理和虚拟环境管理"></a>包管理和虚拟环境管理</h3><p>管理依赖项he创建项目的虚拟环境有两种方式。方式一：conda命令(Anaconda Prompt)，方式二：图形可视化方式(Anaconda Navigator)。这里只介绍一下conda命令的方式：</p><ol><li><p>版本和帮助信息。</p><ul><li>查看版本：<code>conda -V</code>或<code>conda --version</code></li><li>获取帮助：<code>conda -h</code>或<code>conda --help</code></li><li>相关信息：<code>conda list</code></li></ul></li><li><p>虚拟环境相关。</p><ul><li>显示所有虚拟环境：<code>conda env list</code></li><li>创建虚拟环境：<code>conda create --name venv</code></li><li>指定 Python 版本创建虚拟环境：<code>conda create --name venv python=3.7</code></li><li>指定 Python 版本创建虚拟环境并安装指定依赖项：<code>conda create --name venv python=3.7 numpy pandas</code></li><li>通过克隆现有虚拟环境的方式创建虚拟环境：<code>conda create --name venv2 --clone venv</code></li><li>分享虚拟环境并重定向到指定的文件中：<code>conda env export &gt; environment.yml</code></li><li>通过分享的虚拟环境文件创建虚拟环境：<code>conda env create -f environment.yml</code></li><li>激活虚拟环境：<code>conda activate venv</code></li><li>退出虚拟环境：<code>conda deactivate</code></li><li>删除虚拟环境：<code>conda remove --name venv --all</code></li></ul><blockquote><p><strong>说明</strong>：上面的命令中，<code>venv</code>和<code>venv2</code>是虚拟环境文件夹的名字，可以将其替换为自己喜欢的名字，但是<strong>强烈建议</strong>使用英文且不要出现空格或其他特殊字符。</p></blockquote></li><li><p>包（三方库或工具）管理。</p><ul><li>查看已经安装的包：<code>conda list</code></li><li>搜索指定的包：<code>conda search matplotlib</code></li><li>安装指定的包：<code>conda install matplotlib</code></li><li>更新指定的包：<code>conda update matplotlib</code></li><li>移除指定的包：<code>conda remove matplotlib</code></li></ul><blockquote><p><strong>说明</strong>：在搜索、安装和更新软件包时，默认会连接到官方网站进行操作，如果觉得速度不给力，可以将默认的官方网站替换为国内的镜像网站，推荐使用清华大学的开源镜像网站。将默认源更换为国内镜像的命令是：<code>conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ </code>。如果需要换回默认源，可以使用命令<code>conda config --remove-key channels</code>。</p></blockquote></li></ol><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul><li><a href="https://github.com/jackfrued/Python-100-Days/blob/master/Day66-80/67.%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87.md">https://github.com/jackfrued/Python-100-Days/blob/master/Day66-80/67.%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87.md</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;下载Anaconda&quot;&gt;&lt;a href=&quot;#下载Anaconda&quot; class=&quot;headerlink&quot; title=&quot;下载Anaconda&quot;&gt;&lt;/a&gt;下载Anaconda&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;官网：&lt;a href=&quot;https://www.a</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>使用hexo创建一个个人博客网站</title>
