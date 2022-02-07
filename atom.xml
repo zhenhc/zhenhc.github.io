@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-06T06:01:53.565Z</updated>
+  <updated>2022-02-07T09:37:42.021Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用hexo创建一个个人博客网站</title>
+    <link href="http://example.com/2022/02/07/%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/"/>
+    <id>http://example.com/2022/02/07/%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</id>
+    <published>2022-02-07T09:36:58.000Z</published>
+    <updated>2022-02-07T09:37:42.021Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>使用hexo+pure创建的一个个人博客网站，网站链接：<a href="https://zhenhc.github.io./">https://zhenhc.github.io./</a></p></blockquote><h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;文章标题&quot;</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta"># </span><span class="language-bash">清理缓存</span></span><br><span class="line">hexo clean</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta"># </span><span class="language-bash">生成页面</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta"># </span><span class="language-bash">部署到github page</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><h3 id="主要配置文件"><a href="#主要配置文件" class="headerlink" title="主要配置文件"></a>主要配置文件</h3><ol><li>主目录下的<code>E:\blog\_config.yml</code>,基本配置文件</li><li>主题配置文件<code>E:\blog\themes\pure\_config.yml</code></li></ol><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul><li><a href="https://github.com/hexojs/hexo">https://github.com/hexojs/hexo</a></li><li><a href="https://hexo.io/">https://hexo.io/</a></li><li><a href="https://github.com/cofess/hexo-theme-pure">https://github.com/cofess/hexo-theme-pure</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;使用hexo+pure创建的一个个人博客网站，网站链接：&lt;a href=&quot;https://zhenhc.github.io./&quot;&gt;https://zhenhc.github.io./&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;常用</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Linux安装nginx</title>
